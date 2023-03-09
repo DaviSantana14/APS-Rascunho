@@ -39,6 +39,7 @@ header {
     align-items: center;
     background-color: #222;
     width: 100%;
+    flex-direction: column;
     /* position: relative; */
 }
 
@@ -86,9 +87,10 @@ nav {
 .navbar-escondida {
     display: none;
     position: absolute;
-    top: 75px;
-    right: 10%;
+    top: 145px;
+    right: 20%;
     background-color: white;
+    border-radius: 5px;
 }
 
 .navbar-escondida.show {
